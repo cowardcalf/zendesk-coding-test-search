@@ -1,0 +1,6 @@
+- We don't consider saving data into a database.
+- The source data files are located in the root directory of the project.
+- All object of a single type(eg. user) has the same fields set.
+- The _id of each object in a single type is unique.
+- Searching is full value matching.
+- Searching types of fields like date, array and so on must match exactly the same format of String.
